@@ -4,8 +4,8 @@ concurrent (large multi-processor) systems as well as pre-emptive (multi-process
 queues are based on mutual exclusion. However, mutual exclusion causes blocking which has several drawbacks and degrades the system’s 
 overall performance. Non-blocking algorithms avoid blocking, and are either lock-free or wait-free. <br>
 Previously known non-blocking algorithms of priority queues did not perform well in practice because of their complexity, <br>
-and they are often based on non-available atomic synchronization primitives. We have implemented our <br> non-blocking concurrent priority queue in client-server architecture and 
-a real-time extension of our work is also described. <br> In our performance evaluation we compare our model <br>
+and they are often based on non-available atomic synchronization primitives. We have implemented our non-blocking concurrent <br> priority queue in client-server architecture and 
+a real-time extension of our work is also described. In our performance evaluation <br> we compare our model
 with some of the most efficient implementations of priority queues known.
 
 ## User Manual: 
